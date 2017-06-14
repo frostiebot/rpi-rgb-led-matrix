@@ -153,9 +153,7 @@ int Font::CharacterWidth(uint32_t unicode_codepoint) const {
   return g ? g->width : -1;
 }
 
-int Font::DrawGlyph(Canvas *c, int x_pos, int y_pos,
-                    const Color &color, const Color *bgcolor,
-                    uint32_t unicode_codepoint) const {
+int Font::DrawGlyph(Canvas *c, int x_pos, int y_pos, const Color &color, const Color *bgcolor, uint32_t unicode_codepoint) const {
   const Glyph *g = FindGlyph(unicode_codepoint);
   if (g == NULL) g = FindGlyph(kUnicodeReplacementCodepoint);
   if (g == NULL) return 0;
@@ -172,11 +170,6 @@ int Font::DrawGlyph(Canvas *c, int x_pos, int y_pos,
     }
   }
   return g->device_width;
-}
-
-int Font::DrawGlyph(Canvas *c, int x_pos, int y_pos, const Color &color,
-                    uint32_t unicode_codepoint) const {
-  return DrawGlyph(c, x_pos, y_pos, color, NULL, unicode_codepoint);
 }
 
 }  // namespace rgb_matrix

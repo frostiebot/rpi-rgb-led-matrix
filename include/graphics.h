@@ -52,16 +52,8 @@ public:
                 const Color &color, const Color *background_color,
                 uint32_t unicode_codepoint) const;
 
-  // Same without background. Deprecated, use the one above instead.
-  int DrawGlyph(Canvas *c, int x, int y, const Color &color,
-                uint32_t unicode_codepoint) const;
-
-  // Create a new font derived from this font, which represents an outline
-  // of the original font, essentially pixels tracing around the original
-  // letter.
-  // This can be used in situations in which it is desirable to frame a letter
-  // in a different color to increase contrast.
-  // The ownership of the returned pointer is passed to the caller.
+  // Create a new font from this font, which represents an outline of the
+  // original font.
   Font *CreateOutlineFont() const;
 
 private:
@@ -90,9 +82,8 @@ int DrawText(Canvas *c, const Font &font, int x, int y,
              const Color &color, const Color *background_color,
              const char *utf8_text, int kerning_offset = 0);
 
-// Same without background. Deprecated, use the one above instead.
-int DrawText(Canvas *c, const Font &font, int x, int y, const Color &color,
-             const char *utf8_text);
+// Draw a circle centered at "x0", "y0", with a radius of "radius" and with "color"
+void DrawCircle(Canvas *c, int x0, int y0, int radius, const Color &color);
 
 // Draw text, a standard NUL terminated C-string encoded in UTF-8,
 // with given "font" at "x","y" with "color".
@@ -109,8 +100,17 @@ int VerticalDrawText(Canvas *c, const Font &font, int x, int y,
 // Draw a circle centered at "x", "y", with a radius of "radius" and with "color"
 void DrawCircle(Canvas *c, int xx, int y, int radius, const Color &color);
 
+// Draw a filled circle centered at "x0", "y0", with a radius of "radius" and with "color"
+void DrawFilledCircle(Canvas *c, int x0, int y0, int radius, const Color &color);
+
 // Draw a line from "x0", "y0" to "x1", "y1" and with "color"
 void DrawLine(Canvas *c, int x0, int y0, int x1, int y1, const Color &color);
+
+// Draw a rectangle from "x0", "y0" to "x1", "y1" and with "color"
+void DrawRectangle(Canvas *c, int x0, int y0, int x1, int y1, const Color &color);
+
+// Draw a filled rectangle from "x0", "y0" to "x1", "y1" and with "color"
+void DrawFilledRectangle(Canvas *c, int x0, int y0, int x1, int y1, const Color &color);
 
 }  // namespace rgb_matrix
 
