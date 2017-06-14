@@ -18,6 +18,23 @@ The LED-matrix library is (c) Henner Zeller <h.zeller@acm.org>, licensed with
 source and all your modifications available to the receiver of such product so
 that they have the freedom to adapt and improve).
 
+Note to Users Looking at this Fork
+----------------------------------
+This fork is as faithful as it can be to the original code by @hzeller.
+
+All I have done is add a few "primitive" functions to the graphics library
+in the form of DrawCircle, DrawFilledCircle, DrawRectangle and DrawFilledRectangle.
+
+There are a couple of experimental functions in the c++ code that are not linked into
+the python library because they were either a mistake or they didn't seem to pan out
+quite so well.
+
+Finally, this library was forked purely for the python bindings, but I am certain
+the c++ code changes will work natively if that's what you want to do.
+
+Oh, and lib/Makefile has been changed to build the libraries for the `adafruit-hat-pwm`
+target. You may want to change that based on your needs.
+
 Note to Old Time Users: Several changes in defines and flags
 ------------------------------------------------------------
 If you have checked out this library before, you might find that some
