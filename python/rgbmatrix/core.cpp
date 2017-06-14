@@ -3934,11 +3934,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_14inverse_colors__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___options.inverse_colors); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 140, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___options.swap_green_blue); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___options.inverse_colors); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -3984,13 +3980,8 @@ static int __pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_14inverse_colors_2__set_
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 141, __pyx_L1_error)
-  __pyx_v_self->__pyx___options.inverse_colors = __pyx_t_1;
-=======
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == (bool)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 141; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_v_self->__pyx___options.swap_green_blue = __pyx_t_1;
->>>>>>> Stashed changes
+  __pyx_v_self->__pyx___options.inverse_colors = __pyx_t_1;
 
   /* function exit code */
   __pyx_r = 0;
@@ -4033,11 +4024,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyBytes_FromString(__pyx_v_self->__pyx___options.led_rgb_sequence); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___options.inverse_colors); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 144; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyBytes_FromString(__pyx_v_self->__pyx___options.led_rgb_sequence); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 144; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4078,10 +4065,12 @@ static int __pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence_3__se
 static int __pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence_2__set__(struct __pyx_obj_9rgbmatrix_4core_RGBMatrixOptions *__pyx_v_self, PyObject *__pyx_v_value) {
   int __pyx_r;
   __Pyx_RefNannyDeclarations
-<<<<<<< Updated upstream
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
   char const *__pyx_t_3;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
 
   /* "rgbmatrix/core.pyx":146
@@ -4091,12 +4080,12 @@ static int __pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence_2__se
  *             self.__options.led_rgb_sequence = self.__py_encoded_led_rgb_sequence
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_value, __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_value, __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(PyBytes_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "bytes", Py_TYPE(__pyx_t_2)->tp_name), 0))) __PYX_ERR(0, 146, __pyx_L1_error)
+  if (!(likely(PyBytes_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "bytes", Py_TYPE(__pyx_t_2)->tp_name), 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GIVEREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_v_self->__pyx___py_encoded_led_rgb_sequence);
   __Pyx_DECREF(__pyx_v_self->__pyx___py_encoded_led_rgb_sequence);
@@ -4110,7 +4099,7 @@ static int __pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence_2__se
  * 
  *     # RuntimeOptions properties
  */
-  __pyx_t_3 = __Pyx_PyObject_AsString(__pyx_v_self->__pyx___py_encoded_led_rgb_sequence); if (unlikely((!__pyx_t_3) && PyErr_Occurred())) __PYX_ERR(0, 147, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_AsString(__pyx_v_self->__pyx___py_encoded_led_rgb_sequence); if (unlikely((!__pyx_t_3) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 147; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->__pyx___options.led_rgb_sequence = __pyx_t_3;
 
   /* "rgbmatrix/core.pyx":145
@@ -4120,15 +4109,6 @@ static int __pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_16led_rgb_sequence_2__se
  *             self.__py_encoded_led_rgb_sequence = value.encode('utf-8')
  *             self.__options.led_rgb_sequence = self.__py_encoded_led_rgb_sequence
  */
-=======
-  bool __pyx_t_1;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("__set__", 0);
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_value); if (unlikely((__pyx_t_1 == (bool)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 145; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_v_self->__pyx___options.inverse_colors = __pyx_t_1;
->>>>>>> Stashed changes
 
   /* function exit code */
   __pyx_r = 0;
@@ -4173,11 +4153,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_13gpio_slowdown___
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.gpio_slowdown); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.gpio_slowdown); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 150; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.gpio_slowdown); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 152; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4213,11 +4189,7 @@ static int __pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_13gpio_slowdown_3__set__
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   assert(__pyx_arg_value); {
-<<<<<<< Updated upstream
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 153, __pyx_L3_error)
-=======
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 151; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4274,11 +4246,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_6daemon___get__(st
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.daemon); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.daemon); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 154; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.daemon); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4314,11 +4282,7 @@ static int __pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_6daemon_3__set__(PyObjec
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   assert(__pyx_arg_value); {
-<<<<<<< Updated upstream
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 157, __pyx_L3_error)
-=======
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 155; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 157; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4375,11 +4339,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_16RGBMatrixOptions_15drop_privileges_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.drop_privileges); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 160, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.drop_privileges); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 158; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___runtime_options.drop_privileges); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 160; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -4415,11 +4375,7 @@ static int __pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_15drop_privileges_3__set
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__set__ (wrapper)", 0);
   assert(__pyx_arg_value); {
-<<<<<<< Updated upstream
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 161, __pyx_L3_error)
-=======
-    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 159; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+    __pyx_v_value = __Pyx_PyInt_As_uint8_t(__pyx_arg_value); if (unlikely((__pyx_v_value == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 161; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -4514,11 +4470,7 @@ static int __pyx_pw_9rgbmatrix_4core_9RGBMatrix_1__cinit__(PyObject *__pyx_v_sel
         }
       }
       if (unlikely(kw_args > 0)) {
-<<<<<<< Updated upstream
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) __PYX_ERR(0, 165, __pyx_L3_error)
-=======
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "__cinit__") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -4531,29 +4483,17 @@ static int __pyx_pw_9rgbmatrix_4core_9RGBMatrix_1__cinit__(PyObject *__pyx_v_sel
       }
     }
     if (values[0]) {
-<<<<<<< Updated upstream
-      __pyx_v_rows = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_rows == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L3_error)
-=======
-      __pyx_v_rows = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_rows == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+      __pyx_v_rows = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_rows == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
     } else {
       __pyx_v_rows = ((int)0);
     }
     if (values[1]) {
-<<<<<<< Updated upstream
-      __pyx_v_chains = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_chains == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L3_error)
-=======
-      __pyx_v_chains = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_chains == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+      __pyx_v_chains = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_chains == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
     } else {
       __pyx_v_chains = ((int)0);
     }
     if (values[2]) {
-<<<<<<< Updated upstream
-      __pyx_v_parallel = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_parallel == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L3_error)
-=======
-      __pyx_v_parallel = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_parallel == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+      __pyx_v_parallel = __Pyx_PyInt_As_int(values[2]); if (unlikely((__pyx_v_parallel == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
     } else {
       __pyx_v_parallel = ((int)0);
     }
@@ -4561,21 +4501,13 @@ static int __pyx_pw_9rgbmatrix_4core_9RGBMatrix_1__cinit__(PyObject *__pyx_v_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-<<<<<<< Updated upstream
-  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 165, __pyx_L3_error)
-=======
-  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 4, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 163; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+  __Pyx_RaiseArgtupleInvalid("__cinit__", 0, 0, 4, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("rgbmatrix.core.RGBMatrix.__cinit__", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return -1;
   __pyx_L4_argument_unpacking_done:;
-<<<<<<< Updated upstream
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_options), __pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions, 1, "options", 0))) __PYX_ERR(0, 166, __pyx_L1_error)
-=======
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_options), __pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions, 1, "options", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 164; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_options), __pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions, 1, "options", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 166; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_r = __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(((struct __pyx_obj_9rgbmatrix_4core_RGBMatrix *)__pyx_v_self), __pyx_v_rows, __pyx_v_chains, __pyx_v_parallel, __pyx_v_options);
 
   /* "rgbmatrix/core.pyx":165
@@ -4613,13 +4545,8 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(struct __pyx_obj_9rgbm
  *             options = RGBMatrixOptions()
  * 
  */
-<<<<<<< Updated upstream
-  __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_options), Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 170, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 170, __pyx_L1_error)
-=======
-  __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_options), Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_options), Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 170; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 170; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
@@ -4630,26 +4557,11 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(struct __pyx_obj_9rgbm
  * 
  *         if rows > 0:
  */
-<<<<<<< Updated upstream
-    __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF_SET(__pyx_v_options, ((struct __pyx_obj_9rgbmatrix_4core_RGBMatrixOptions *)__pyx_t_1));
-    __pyx_t_1 = 0;
-
-    /* "rgbmatrix/core.pyx":170
- *         # If RGBMatrixOptions not provided, create defaults and set any optional
- *         # parameters supplied
- *         if options == None:             # <<<<<<<<<<<<<<
- *             options = RGBMatrixOptions()
- * 
- */
-=======
-    __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 169; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_9rgbmatrix_4core_RGBMatrixOptions)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_options, ((struct __pyx_obj_9rgbmatrix_4core_RGBMatrixOptions *)__pyx_t_1));
     __pyx_t_1 = 0;
     goto __pyx_L3;
->>>>>>> Stashed changes
   }
   __pyx_L3:;
 
@@ -4670,26 +4582,11 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(struct __pyx_obj_9rgbm
  *         if chains > 0:
  *             options.chain_length = chains
  */
-<<<<<<< Updated upstream
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_rows); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 174, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_rows); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 174; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_rows, __pyx_t_1) < 0) __PYX_ERR(0, 174, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-    /* "rgbmatrix/core.pyx":173
- *             options = RGBMatrixOptions()
- * 
- *         if rows > 0:             # <<<<<<<<<<<<<<
- *             options.rows = rows
- *         if chains > 0:
- */
-=======
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_rows); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_rows, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_rows, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 174; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     goto __pyx_L4;
->>>>>>> Stashed changes
   }
   __pyx_L4:;
 
@@ -4710,26 +4607,11 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(struct __pyx_obj_9rgbm
  *         if parallel > 0:
  *             options.parallel = parallel
  */
-<<<<<<< Updated upstream
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_chains); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_chains); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 176; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_chain_length, __pyx_t_1) < 0) __PYX_ERR(0, 176, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-    /* "rgbmatrix/core.pyx":175
- *         if rows > 0:
- *             options.rows = rows
- *         if chains > 0:             # <<<<<<<<<<<<<<
- *             options.chain_length = chains
- *         if parallel > 0:
- */
-=======
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_chains); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 174; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_chain_length, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 174; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_chain_length, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 176; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     goto __pyx_L5;
->>>>>>> Stashed changes
   }
   __pyx_L5:;
 
@@ -4750,26 +4632,11 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix___cinit__(struct __pyx_obj_9rgbm
  * 
  *         self.__matrix = cppinc.CreateMatrixFromOptions(options.__options,
  */
-<<<<<<< Updated upstream
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_parallel); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_parallel); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_parallel, __pyx_t_1) < 0) __PYX_ERR(0, 178, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-    /* "rgbmatrix/core.pyx":177
- *         if chains > 0:
- *             options.chain_length = chains
- *         if parallel > 0:             # <<<<<<<<<<<<<<
- *             options.parallel = parallel
- * 
- */
-=======
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_parallel); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 176; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_1);
-    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_parallel, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 176; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (__Pyx_PyObject_SetAttrStr(((PyObject *)__pyx_v_options), __pyx_n_s_parallel, __pyx_t_1) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     goto __pyx_L6;
->>>>>>> Stashed changes
   }
   __pyx_L6:;
 
@@ -4893,17 +4760,6 @@ static rgb_matrix::Canvas *__pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas(struc
  */
     __pyx_r = __pyx_v_self->__pyx___matrix;
     goto __pyx_L0;
-<<<<<<< Updated upstream
-
-    /* "rgbmatrix/core.pyx":188
- * 
- *     cdef cppinc.Canvas* __getCanvas(self) except *:
- *         if <void*>self.__matrix != NULL:             # <<<<<<<<<<<<<<
- *             return self.__matrix
- *         raise Exception("Canvas was destroyed or not initialized, you cannot use this object anymore")
- */
-=======
->>>>>>> Stashed changes
   }
 
   /* "rgbmatrix/core.pyx":190
@@ -4913,19 +4769,11 @@ static rgb_matrix::Canvas *__pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas(struc
  * 
  *     def Fill(self, uint8_t red, uint8_t green, uint8_t blue):
  */
-<<<<<<< Updated upstream
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)(&((PyTypeObject*)PyExc_Exception)[0])), __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_Exception, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_Raise(__pyx_t_2, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __PYX_ERR(0, 190, __pyx_L1_error)
-=======
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_Exception, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 188; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  {__pyx_filename = __pyx_f[0]; __pyx_lineno = 188; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rgbmatrix/core.pyx":187
  *         del self.__matrix
@@ -4945,15 +4793,7 @@ static rgb_matrix::Canvas *__pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas(struc
   return __pyx_r;
 }
 
-<<<<<<< Updated upstream
-rgb_matrix::Canvas *__pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas__pyx_wrap_1(struct __pyx_obj_9rgbmatrix_4core_RGBMatrix *__pyx_v_self) {
-  return __pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas(__pyx_v_self);
-}
-
 /* "rgbmatrix/core.pyx":192
-=======
-/* "rgbmatrix/core.pyx":190
->>>>>>> Stashed changes
  *         raise Exception("Canvas was destroyed or not initialized, you cannot use this object anymore")
  * 
  *     def Fill(self, uint8_t red, uint8_t green, uint8_t blue):             # <<<<<<<<<<<<<<
@@ -4994,28 +4834,16 @@ static PyObject *__pyx_pw_9rgbmatrix_4core_9RGBMatrix_5Fill(PyObject *__pyx_v_se
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_green)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 1); __PYX_ERR(0, 192, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
         case  2:
         if (likely((values[2] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_blue)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 2); __PYX_ERR(0, 192, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 2); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "Fill") < 0)) __PYX_ERR(0, 192, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, 2); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "Fill") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "Fill") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 3) {
       goto __pyx_L5_argtuple_error;
@@ -5024,23 +4852,13 @@ static PyObject *__pyx_pw_9rgbmatrix_4core_9RGBMatrix_5Fill(PyObject *__pyx_v_se
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
       values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
     }
-<<<<<<< Updated upstream
-    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[0]); if (unlikely((__pyx_v_red == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 192, __pyx_L3_error)
-    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[1]); if (unlikely((__pyx_v_green == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 192, __pyx_L3_error)
-    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_blue == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 192, __pyx_L3_error)
+    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[0]); if (unlikely((__pyx_v_red == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[1]); if (unlikely((__pyx_v_green == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_blue == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 192, __pyx_L3_error)
-=======
-    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[0]); if (unlikely((__pyx_v_red == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[1]); if (unlikely((__pyx_v_green == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_blue == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+  __Pyx_RaiseArgtupleInvalid("Fill", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("rgbmatrix.core.RGBMatrix.Fill", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -5127,46 +4945,26 @@ static PyObject *__pyx_pw_9rgbmatrix_4core_9RGBMatrix_7SetPixel(PyObject *__pyx_
         case  1:
         if (likely((values[1] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_y)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 1); __PYX_ERR(0, 195, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 1); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
         case  2:
         if (likely((values[2] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_red)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 2); __PYX_ERR(0, 195, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 2); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 2); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
         case  3:
         if (likely((values[3] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_green)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 3); __PYX_ERR(0, 195, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 3); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 3); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
         case  4:
         if (likely((values[4] = PyDict_GetItem(__pyx_kwds, __pyx_n_s_blue)) != 0)) kw_args--;
         else {
-<<<<<<< Updated upstream
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 4); __PYX_ERR(0, 195, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 4); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "SetPixel") < 0)) __PYX_ERR(0, 195, __pyx_L3_error)
-=======
-          __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, 4); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "SetPixel") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "SetPixel") < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 5) {
       goto __pyx_L5_argtuple_error;
@@ -5177,27 +4975,15 @@ static PyObject *__pyx_pw_9rgbmatrix_4core_9RGBMatrix_7SetPixel(PyObject *__pyx_
       values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
       values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
     }
-<<<<<<< Updated upstream
-    __pyx_v_x = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_x == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 195, __pyx_L3_error)
-    __pyx_v_y = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_y == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 195, __pyx_L3_error)
-    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_red == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 195, __pyx_L3_error)
-    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[3]); if (unlikely((__pyx_v_green == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 195, __pyx_L3_error)
-    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[4]); if (unlikely((__pyx_v_blue == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 195, __pyx_L3_error)
+    __pyx_v_x = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_x == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_y = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_y == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_red == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[3]); if (unlikely((__pyx_v_green == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[4]); if (unlikely((__pyx_v_blue == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 195, __pyx_L3_error)
-=======
-    __pyx_v_x = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_x == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_y = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_y == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_red = __Pyx_PyInt_As_uint8_t(values[2]); if (unlikely((__pyx_v_red == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_green = __Pyx_PyInt_As_uint8_t(values[3]); if (unlikely((__pyx_v_green == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-    __pyx_v_blue = __Pyx_PyInt_As_uint8_t(values[4]); if (unlikely((__pyx_v_blue == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
->>>>>>> Stashed changes
+  __Pyx_RaiseArgtupleInvalid("SetPixel", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_AddTraceback("rgbmatrix.core.RGBMatrix.SetPixel", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -5327,11 +5113,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_10CreateFrameCanvas(struct
  *     def SwapOnVSync(self, FrameCanvas newFrame):
  */
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->CreateFrameCanvas()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
-=======
-  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->CreateFrameCanvas()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 200; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->CreateFrameCanvas()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 202; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5373,11 +5155,7 @@ static PyObject *__pyx_pw_9rgbmatrix_4core_9RGBMatrix_13SwapOnVSync(PyObject *__
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("SwapOnVSync (wrapper)", 0);
-<<<<<<< Updated upstream
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_newFrame), __pyx_ptype_9rgbmatrix_4core_FrameCanvas, 1, "newFrame", 0))) __PYX_ERR(0, 204, __pyx_L1_error)
-=======
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_newFrame), __pyx_ptype_9rgbmatrix_4core_FrameCanvas, 1, "newFrame", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 202; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_newFrame), __pyx_ptype_9rgbmatrix_4core_FrameCanvas, 1, "newFrame", 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 204; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_r = __pyx_pf_9rgbmatrix_4core_9RGBMatrix_12SwapOnVSync(((struct __pyx_obj_9rgbmatrix_4core_RGBMatrix *)__pyx_v_self), ((struct __pyx_obj_9rgbmatrix_4core_FrameCanvas *)__pyx_v_newFrame));
 
   /* function exit code */
@@ -5406,11 +5184,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_12SwapOnVSync(struct __pyx
  *     property luminanceCorrect:
  */
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->SwapOnVSync(__pyx_v_newFrame->__pyx___canvas)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 205, __pyx_L1_error)
-=======
-  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->SwapOnVSync(__pyx_v_newFrame->__pyx___canvas)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 203; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __pyx_f_9rgbmatrix_4core___createFrameCanvas(__pyx_v_self->__pyx___matrix->SwapOnVSync(__pyx_v_newFrame->__pyx___canvas)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 205; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5465,11 +5239,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_16luminanceCorrect___get__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___matrix->luminance_correct()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 208, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___matrix->luminance_correct()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 206; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_self->__pyx___matrix->luminance_correct()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5515,11 +5285,7 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix_16luminanceCorrect_2__set__(stru
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_luminanceCorrect); if (unlikely((__pyx_t_1 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 209, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_luminanceCorrect); if (unlikely((__pyx_t_1 == (bool)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 207; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_luminanceCorrect); if (unlikely((__pyx_t_1 == (bool)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->__pyx___matrix->set_luminance_correct(__pyx_t_1);
 
   /* function exit code */
@@ -5563,11 +5329,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_7pwmBits___get__(struct __
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->pwmbits()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 212, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->pwmbits()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 210; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->pwmbits()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 212; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5613,11 +5375,7 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix_7pwmBits_2__set__(struct __pyx_o
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_pwmBits); if (unlikely((__pyx_t_1 == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 213, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_pwmBits); if (unlikely((__pyx_t_1 == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 211; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_pwmBits); if (unlikely((__pyx_t_1 == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 213; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->__pyx___matrix->SetPWMBits(__pyx_t_1);
 
   /* function exit code */
@@ -5661,11 +5419,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_10brightness___get__(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->brightness()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 216, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->brightness()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 214; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_uint8_t(__pyx_v_self->__pyx___matrix->brightness()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 216; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5711,11 +5465,7 @@ static int __pyx_pf_9rgbmatrix_4core_9RGBMatrix_10brightness_2__set__(struct __p
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_brightness); if (unlikely((__pyx_t_1 == ((uint8_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 217, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_brightness); if (unlikely((__pyx_t_1 == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 215; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_As_uint8_t(__pyx_v_brightness); if (unlikely((__pyx_t_1 == (uint8_t)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 217; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->__pyx___matrix->SetBrightness(__pyx_t_1);
 
   /* function exit code */
@@ -5759,11 +5509,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_6height___get__(struct __p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->height()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 220, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->height()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->height()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 220; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5810,11 +5556,7 @@ static PyObject *__pyx_pf_9rgbmatrix_4core_9RGBMatrix_5width___get__(struct __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
   __Pyx_XDECREF(__pyx_r);
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->width()); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 223, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->width()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 221; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx___matrix->width()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 223; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -5856,11 +5598,7 @@ static PyObject *__pyx_f_9rgbmatrix_4core___createFrameCanvas(rgb_matrix::FrameC
  *     canvas.__canvas = newCanvas
  *     return canvas
  */
-<<<<<<< Updated upstream
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)__pyx_ptype_9rgbmatrix_4core_FrameCanvas), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 226, __pyx_L1_error)
-=======
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_9rgbmatrix_4core_FrameCanvas)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_9rgbmatrix_4core_FrameCanvas)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 226; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_canvas = ((struct __pyx_obj_9rgbmatrix_4core_FrameCanvas *)__pyx_t_1);
   __pyx_t_1 = 0;
@@ -6294,14 +6032,10 @@ static PyObject *__pyx_tp_new_9rgbmatrix_4core_RGBMatrixOptions(PyTypeObject *t,
   if (unlikely(!o)) return 0;
   p = ((struct __pyx_obj_9rgbmatrix_4core_RGBMatrixOptions *)o);
   p->__pyx___py_encoded_hardware_mapping = ((PyObject*)Py_None); Py_INCREF(Py_None);
-<<<<<<< Updated upstream
   p->__pyx___py_encoded_led_rgb_sequence = ((PyObject*)Py_None); Py_INCREF(Py_None);
-  if (unlikely(__pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_1__cinit__(o, __pyx_empty_tuple, NULL) < 0)) goto bad;
-=======
   if (unlikely(__pyx_pw_9rgbmatrix_4core_16RGBMatrixOptions_1__cinit__(o, __pyx_empty_tuple, NULL) < 0)) {
     Py_DECREF(o); o = 0;
   }
->>>>>>> Stashed changes
   return o;
 }
 
@@ -6532,23 +6266,6 @@ static PyMethodDef __pyx_methods_9rgbmatrix_4core_RGBMatrixOptions[] = {
 };
 
 static struct PyGetSetDef __pyx_getsets_9rgbmatrix_4core_RGBMatrixOptions[] = {
-<<<<<<< Updated upstream
-  {(char *)"hardware_mapping", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_hardware_mapping, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_hardware_mapping, (char *)0, 0},
-  {(char *)"rows", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_rows, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_rows, (char *)0, 0},
-  {(char *)"chain_length", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_chain_length, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_chain_length, (char *)0, 0},
-  {(char *)"parallel", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_parallel, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_parallel, (char *)0, 0},
-  {(char *)"pwm_bits", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_pwm_bits, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_pwm_bits, (char *)0, 0},
-  {(char *)"pwm_lsb_nanoseconds", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_pwm_lsb_nanoseconds, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_pwm_lsb_nanoseconds, (char *)0, 0},
-  {(char *)"brightness", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_brightness, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_brightness, (char *)0, 0},
-  {(char *)"scan_mode", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_scan_mode, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_scan_mode, (char *)0, 0},
-  {(char *)"disable_hardware_pulsing", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_disable_hardware_pulsing, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_disable_hardware_pulsing, (char *)0, 0},
-  {(char *)"show_refresh_rate", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_show_refresh_rate, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_show_refresh_rate, (char *)0, 0},
-  {(char *)"inverse_colors", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_inverse_colors, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_inverse_colors, (char *)0, 0},
-  {(char *)"led_rgb_sequence", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_led_rgb_sequence, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_led_rgb_sequence, (char *)0, 0},
-  {(char *)"gpio_slowdown", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_gpio_slowdown, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_gpio_slowdown, (char *)0, 0},
-  {(char *)"daemon", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_daemon, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_daemon, (char *)0, 0},
-  {(char *)"drop_privileges", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_drop_privileges, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_drop_privileges, (char *)0, 0},
-=======
   {(char *)"hardware_mapping", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_hardware_mapping, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_hardware_mapping, 0, 0},
   {(char *)"rows", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_rows, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_rows, 0, 0},
   {(char *)"chain_length", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_chain_length, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_chain_length, 0, 0},
@@ -6559,12 +6276,11 @@ static struct PyGetSetDef __pyx_getsets_9rgbmatrix_4core_RGBMatrixOptions[] = {
   {(char *)"scan_mode", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_scan_mode, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_scan_mode, 0, 0},
   {(char *)"disable_hardware_pulsing", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_disable_hardware_pulsing, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_disable_hardware_pulsing, 0, 0},
   {(char *)"show_refresh_rate", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_show_refresh_rate, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_show_refresh_rate, 0, 0},
-  {(char *)"swap_green_blue", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_swap_green_blue, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_swap_green_blue, 0, 0},
   {(char *)"inverse_colors", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_inverse_colors, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_inverse_colors, 0, 0},
+  {(char *)"led_rgb_sequence", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_led_rgb_sequence, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_led_rgb_sequence, 0, 0},
   {(char *)"gpio_slowdown", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_gpio_slowdown, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_gpio_slowdown, 0, 0},
   {(char *)"daemon", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_daemon, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_daemon, 0, 0},
   {(char *)"drop_privileges", __pyx_getprop_9rgbmatrix_4core_16RGBMatrixOptions_drop_privileges, __pyx_setprop_9rgbmatrix_4core_16RGBMatrixOptions_drop_privileges, 0, 0},
->>>>>>> Stashed changes
   {0, 0, 0, 0, 0}
 };
 
@@ -6753,7 +6469,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             self.__options.led_rgb_sequence = self.__py_encoded_led_rgb_sequence
  * 
  */
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_s_utf_8); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_s_utf_8); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
@@ -6764,15 +6480,9 @@ static int __Pyx_InitCachedConstants(void) {
  * 
  *     def Fill(self, uint8_t red, uint8_t green, uint8_t blue):
  */
-<<<<<<< Updated upstream
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_Canvas_was_destroyed_or_not_init); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_Canvas_was_destroyed_or_not_init); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
-=======
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_s_Canvas_was_destroyed_or_not_init); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 188; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
->>>>>>> Stashed changes
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -6888,17 +6598,10 @@ PyMODINIT_FUNC PyInit_core(void)
   __pyx_vtable_9rgbmatrix_4core_RGBMatrix.__pyx_base = *__pyx_vtabptr_9rgbmatrix_4core_Canvas;
   __pyx_vtable_9rgbmatrix_4core_RGBMatrix.__pyx_base.__pyx___getCanvas = (rgb_matrix::Canvas *(*)(struct __pyx_obj_9rgbmatrix_4core_Canvas *))__pyx_f_9rgbmatrix_4core_9RGBMatrix___getCanvas;
   __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_base = __pyx_ptype_9rgbmatrix_4core_Canvas;
-<<<<<<< Updated upstream
-  if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) __PYX_ERR(0, 164, __pyx_L1_error)
+  if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 164; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_9rgbmatrix_4core_RGBMatrix.tp_dict, __pyx_vtabptr_9rgbmatrix_4core_RGBMatrix) < 0) __PYX_ERR(0, 164, __pyx_L1_error)
-  if (PyObject_SetAttrString(__pyx_m, "RGBMatrix", (PyObject *)&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) __PYX_ERR(0, 164, __pyx_L1_error)
-=======
-  if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 162; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_9rgbmatrix_4core_RGBMatrix.tp_dict, __pyx_vtabptr_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 162; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (PyObject_SetAttrString(__pyx_m, "RGBMatrix", (PyObject *)&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 162; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
->>>>>>> Stashed changes
+  if (__Pyx_SetVtable(__pyx_type_9rgbmatrix_4core_RGBMatrix.tp_dict, __pyx_vtabptr_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 164; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyObject_SetAttrString(__pyx_m, "RGBMatrix", (PyObject *)&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 164; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_ptype_9rgbmatrix_4core_RGBMatrix = &__pyx_type_9rgbmatrix_4core_RGBMatrix;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrixOptions) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 91; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_print = 0;
