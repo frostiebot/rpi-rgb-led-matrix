@@ -35,6 +35,12 @@ the c++ code changes will work natively if that's what you want to do.
 Oh, and lib/Makefile has been changed to build the libraries for the `adafruit-hat-pwm`
 target. You may want to change that based on your needs.
 
+Last thing, I swear - I'm not a c or c++ guy. I wrote in functions that seemed syntactically
+correct and followed the same logic (as far as pointers and whatnot) as the pre-existing
+code. So far, nothing on my test hardware has exploded.
+
+Good luck!
+
 Note to Old Time Users: Several changes in defines and flags
 ------------------------------------------------------------
 If you have checked out this library before, you might find that some
